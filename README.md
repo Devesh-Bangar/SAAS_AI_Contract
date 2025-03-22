@@ -1,21 +1,22 @@
-# FileCheckMaster
-
-FileCheckMaster is a comprehensive contract management and reminder system that helps you track, manage, and receive notifications about important contracts and files.
+# LegalAI
+LegalAI is a comprehensive contract management and reminder system that helps you track, manage, and receive notifications about important contracts and files.
 
 ## Features
 
-- Contract tracking and management
-- SMS notifications for important deadlines
-- Authentication system
-- Automated reminders
-- File status monitoring
-- User management system
+- Contract Score Analysis: Provides an overall score and breakdown of key metrics (clarity, completeness, fairness, risk management, compliance).
+- ﻿﻿Risk and Opportunity Analysis: Identifies legal, financial, and operational risks and opportunities with mitigation suggestions.
+- ﻿﻿Key Clauses Extraction: Highlights critical clauses and notable provisions with summaries and recommendations.
+- ﻿﻿Question & Answer: Allows users to ask specific questions about the contract and get Al-generated answers.
+- ﻿﻿Multi-Language Support: Supports translation of contract analysis into multiple languages.
+﻿﻿- PDF Report Generation: Generates a comprehensive PDF report with analysis results and visualizations.
+- ﻿﻿Customer Support: Offers real-time assistance through chat or email for resolving queries and technical issues.
+- ﻿﻿Customer Feedback: Collects feedback from
 
 ## Prerequisites
 
 - Python 3.x
 - PostgreSQL database
-- SMS service provider credentials (for notifications)
+- Email service provider credentials (for notifications)
 
 ## Installation
 
@@ -70,7 +71,7 @@ python app.py
 The application can be configured through the `.env` file. Key configuration options include:
 
 - Database connection settings
-- SMS notification parameters
+- Email notification parameters
 - Security settings
 - Reminder intervals
 
@@ -82,9 +83,6 @@ The application can be configured through the `.env` file. Key configuration opt
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Support
 
